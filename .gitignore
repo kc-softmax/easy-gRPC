@@ -1,0 +1,13 @@
+
+# build
+/dist
+
+# dependency
+/node_module
+
+# cash file
+*.pyc
+
+# protobuf comfiled file
+*pb.js
+*pb2*.py*
