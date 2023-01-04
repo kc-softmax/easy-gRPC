@@ -1,0 +1,7 @@
+google==3.0.0
+grpcio==1.50.0
+grpcio-tools==1.50.0
+mypy==0.982
+mypy-extensions==0.4.3
+mypy-protobuf==3.4.0
+protobuf==4.21.8
