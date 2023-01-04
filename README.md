@@ -13,7 +13,7 @@ You can easily run the gRPC example.
 ---
 ## Guide
 ### Requirements
-#### [Install the protocol compiler](https://grpc.io/docs/protoc-installation/)
+#### [Install the protobuf compiler](https://grpc.io/docs/protoc-installation/)
 &nbsp;
 &nbsp;
 ### 1. basic gRPC
@@ -23,7 +23,7 @@ cd python_basic
 ```
 #### Dependencies
 ```sh
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 #### Compile `helloworld.proto`
 ```
@@ -71,7 +71,7 @@ cd python_route_guide
 ```
 #### Dependencies
 ```sh
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 #### compile `route_guide.proto`
 ```
