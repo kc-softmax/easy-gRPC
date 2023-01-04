@@ -113,7 +113,7 @@ cd grpc-web
 #### Run the Envoy(Proxy server)
 ```sh
 # if docker installed and running
-docker run -d -v "$(pwd)"/envoy.yaml:/etc/envoy/envoy.yaml:ro \
+docker run -it -v "$(pwd)"/envoy.yaml:/etc/envoy/envoy.yaml:ro \
     -p 8080:8080 -p 9901:9901 envoyproxy/envoy:v1.22.0
 ```
 #### Compile `helloworld.proto`
